@@ -39,3 +39,11 @@ else{
 // ternary operator
 // Syntax : - (Condition) ? code for true : code for false
 
+// Switch Statement
+// Syntax :
+// switch(expression){
+//  case x:
+    // code block
+//  case y:
+    // code block
+// }
