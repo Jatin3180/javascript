@@ -43,7 +43,12 @@ else{
 // Syntax :
 // switch(expression){
 //  case x:
-    // code block
+//     code block
 //  case y:
-    // code block
+//     code block
+
+// default :
+ 
 // }
+//
+//jatinyadav31801@gmail.com
