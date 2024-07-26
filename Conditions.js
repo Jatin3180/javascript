@@ -44,6 +44,7 @@ else{
 // switch(expression){
 //  case x:
 //     code block
+//     break;
 //  case y:
 //     code block
 
@@ -51,4 +52,5 @@ else{
  
 // }
 //
-//jatinyadav31801@gmail.com
+// Break keyword
+// 
