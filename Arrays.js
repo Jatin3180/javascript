@@ -46,6 +46,7 @@
 // swap 
 // 345
 // 12
+// i = 6 : str1 = "l"
 
 // i = 5 ; str1  = l
 // i = 4; str1 = e
@@ -63,3 +64,6 @@
 // BhaiLang
 // let arr1 = [21, 45, 32, 98]; 
 // console.log(arr1.includes(42));
+// quotes
+// '', "" ,(` `)backticks
+// 

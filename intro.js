@@ -41,8 +41,8 @@ const PI = 3.14;
 // Operators
 // + , - , * , / , % , ++(Increment) , --(Decrement) , **
 let a = 5;
-let w = a*2;  //10
-let z = a ** 2; //25
+let w = a*2;  //10  --  5x 2
+let z = a ** 4; // --  5x5 =625
 
 // Assignment Operators
 // = , += , -= ,*=, /= ,%= , **=
