@@ -3,18 +3,73 @@
 <head>
 
     <title>Document</title>
-    <script src="./Strings.js"></script>
-    <script src="./Functions.js"></script>
-    <!-- <script>
-         let x = 16 + "Hello";
-         let y=  "helo" + 1616 + 4 ; 
-         console.log(x)  
-         console.log(y)
-    </script> -->
+    <!-- <script src="./Strings.js"></script>
+    <script src="./Events.js"></script> -->
+    <script>
+    //   function check(){
+    //     alert("page is loaded");
+    //   }
+    // DOM EventListener
+    // addEventListener()
+    // Element.addEventListener(event,function)
+    // let btn = document.getElementById("button");
+   
+    // function fun(){
+    //   console.log("test")
+    // }
+    </script>
+    <!-- bubbling readability -->
+
 </head>
-<body>
-    <p></p>
+<body >
+    <!-- <p></p> -->
+  <button id="button">Button!</button>
+
+  <script>
+     document.getElementById("button").addEventListener("click", fun);
+
+     function fun(){
+       alert("event called")
+     }
+  </script>
+
     
+  <!-- oninput  Event-->
+   <!-- <input type="text" name="" id="text" onfocus="Focus()"> -->
+
+   <!-- <p id="para" onmouseover="mouseOver()" onmouseout="mouseOut()">Hello</p>
+
+   <button id="btn" onmousedown="mouseDown()" onmouseup="mouseUp()">Click ME</button>
+ -->
+
+   <script>  
+  //  function Focus(){
+  //   let x = document.getElementById("text");
+  //   x.style.background = "yellow";
+  //  }
+    // function upperCase(){
+    //   let x = document.getElementById("text")
+    //   x.value = x.value.toUpperCase();
+    // }
+
+    // function mouseOver(){
+    //     document.getElementById("para").innerHTML = "MouseOver";
+    // }
+
+    // function mouseOut(){
+    //     document.getElementById("para").innerHTML = "MouseOut";
+    // }
+
+    // function mouseDown(){
+    //   let btn = document.getElementById("btn");
+    //   btn.innerHTML="mouseDown";
+    // }
+    // function mouseUp(){
+    //   let btn = document.getElementById("btn");
+    //   btn.innerHTML="mouseUp";
+    // }
+
+   </script>
     
 </body>
 </html>
