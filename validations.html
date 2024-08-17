@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validation(){
+            let name = document.getElementById("name").value;
+            let name_error = document.getElementById("name_error");
+            let name_check =  /^[A-Za-z0-9 & ]{0,}$/;
+            // let email_check = /^[A-Z][a-z][0-9]{0,}$/;
+            if(!name_check.test(name)){
+                document.getElementById("name_error").innerHTML = "Invalid Name!!!";
+                document.getElementById("name").focus();
+            }
+            if(name == ""){
+                document.getElementById("name_error").innerHTML = "This field is mandatory";
+                document.getElementById("name").focus();
+            }
+
+
+            window.location.href = window.location.protocol + "//" + window.location.host + "/home.html";
+
+
+        }
+    
+        // math--
+        // 
+
+    </script>
+</head>
+<body>
+    <input type="text" id="name"><br><span id="name_error" style="color: red;"></span><br>
+
+    <!-- <input type="email" id=""><br> -->
+
+    <input type="submit" onclick="validation()">
+</body>
+</html>
